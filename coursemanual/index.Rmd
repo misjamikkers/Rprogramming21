@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Course manual R programming 2020/2021"
+author: "Misja Mikkers and Gertjan Verhoeven"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,7 +9,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This is the course manual for the course R programming 2020/2021"
 ---
 
 # Prerequisites
