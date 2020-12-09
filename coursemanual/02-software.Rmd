@@ -22,7 +22,7 @@ Rstudio is able to transform your code to different nice outputs:
 - thesis
 - much more (even this website and this course manual is build in Rstudio!)
 
-Rstudio needs TinyTex to transform your code to pdf.
+Rstudio needs TinyTex to transform your code to pdf (which is our preferred format, however other formats are also possible).
 
 If you need to do things more often, it is useful to write a function to do these things. Other R users also use functions and store them in packages. Some of these packages are published online and can be used by all users. We will depend in our course on some of these packages.
 
@@ -39,7 +39,29 @@ In this paragraph we will take you through the steps to install R.
 
 1. Go to this [website](https://mirror.lyrahosting.com/CRAN/)
 2. Choose download R for your operating system. You can choose from Windows, Mac OS X for apple computers and Linux. If you don't know which operating system you have and you don't have an apple computer, you may guess you have a Windows computer.
-3. After downloading, open the dowloaded file and follow the steps to install the program. Choose the default options.
+3. After downloading, open the downloaded file and follow the steps to install the program. Choose the default options.
+
+
+## R studio
+
+You can download and install R studio from http://www.rstudio.com/download. Choose the option: "Open Source License Free". The website will then recommend a version for your operating system.
+
+You will see 3 "panes":
+
+1. Console (left part of the screen)
+2. Environment/history etc (top right of your screen)
+3. Files/Plots/Packages (bottom right of your sreen)
+
+<<PRINT SCREEN INVOEGEN>>
+
+You can test the installation by typing
+
+1 + 1 
+
+followed by an enter to test the installation
+
+
+## Installation of packages
 
 
 
