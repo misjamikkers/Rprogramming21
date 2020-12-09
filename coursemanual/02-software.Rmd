@@ -58,10 +58,27 @@ You can test the installation by typing
 
 1 + 1 
 
-followed by an enter to test the installation
+followed by an enter to test the installation.
 
 
 ## Installation of packages
+
+In the pane at the bottom right there is a tab called "Packages". 
+After clicking this tab a new tab "Install" appears
+
+<<INVOEGEN SCHERMPLAATJE>>
+
+After clicking the "Install" button, you can type tinytex in the pop-up.
+
+
+<<INVOEGEN SCHERMPLAATJE>>
+
+
+Please install the package tidyverse.
+
+
+
+
 
 
 
