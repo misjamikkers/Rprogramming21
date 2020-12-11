@@ -1,0 +1,3 @@
+# Using Functions 
+
+Repeated tasks, using function to automate something (e.g plotting)

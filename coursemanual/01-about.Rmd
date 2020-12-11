@@ -1,0 +1,13 @@
+# About this course
+
+
+Notebooks with exercises.
+
+Use git to clone.
+
+Additional material:
+
+sheet sheets
+
+
+

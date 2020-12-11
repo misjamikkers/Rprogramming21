@@ -1,0 +1,3 @@
+# Creating documents
+
+using knitr to create PDF / HTML reports, papers, presentations etc.

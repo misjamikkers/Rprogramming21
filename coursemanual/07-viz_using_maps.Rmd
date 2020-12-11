@@ -1,0 +1,6 @@
+# Creating maps
+
+kaartjes maken.
+
+COVID. geom_sf 
+solutions blocks.
