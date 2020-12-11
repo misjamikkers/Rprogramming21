@@ -1,9 +1,15 @@
 # Data wrangling
 
+https://r4ds.had.co.nz/wrangle-intro.html
+
 Reading data
 
 transforming data etc
 
+joining / merging data
+
 dplyr
 
-introduction to R 
+Datacamp: introduction to R 
+
+R for data science: wrangle hoofdstukken

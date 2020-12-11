@@ -1,5 +1,10 @@
 # Visualizing data
 
-ggplot.
 
-introduction to tidyverse
+Datacamp introduction to tidyverse
+
+## ggplot2 
+
+https://r4ds.had.co.nz/data-visualisation.html 
+
+Make exercises.

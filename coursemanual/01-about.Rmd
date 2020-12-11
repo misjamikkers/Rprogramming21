@@ -7,7 +7,15 @@ Use git to clone.
 
 Additional material:
 
-sheet sheets
+* cheat sheets
+
+* Data camp
+
+* R for data science book
+
+etc
 
 
+## How to fish
 
+Stack overflow, google on error message, strip away fluff
