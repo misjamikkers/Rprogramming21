@@ -1,6 +1,9 @@
 # About this course
 
 
+## Set up of the course
+
+
 Notebooks with exercises.
 
 Use git to clone.
@@ -19,3 +22,22 @@ etc
 ## How to fish
 
 Stack overflow, google on error message, strip away fluff
+
+
+## Aim of the course
+
+
+## Questions
+
+here are no stupid questions, it’s stupid not to ask questions. We encourage you to post your questions in the discussion section on Canvas.
+
+Only when you need to include privately sensitive information (“my cat has passed away”), you can send an email. Always provide us with the following information: - say whether you are an ECO or EBE student - mention the group number of your tutorial and/or the name of your tutorial teacher - explain your question
+
+## Team
+
+The R-part of the course Programming for Economists in 2020-2021 is taught by:
+
+- Misja Mikkers
+- Gertjan Verhoeven
+
+
