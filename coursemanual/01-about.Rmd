@@ -1,30 +1,24 @@
 # About this course
 
 
+## Aim of the course
+
+After this course you will be able to import data, manipulate data and to visualize data. In addition you will be able to write (simple) functions to automate (boring) tasks. We will not dive into modeling. 
+
+Since visualization is the most interesting part, each lecture is working towards a plot. E.g. in the first lecture, we will start to import (prepared) data and work towards a nice looking graph. 
+
+
+We will teach you to work in Tidyverse. Tidyverse is a package (collection of functions) that is developed to manipulate and visualize data (and more!)
+
+
 ## Set up of the course
 
+This course is about programming. We believe that the only way to learn programming is by programming yourself. Therefore, we will introduce programming by online programming on the Datacamp website and work in class on notebooks. 
 
-Notebooks with exercises.
+Many concepts you will first see at Datacamp and then we apply them in class. Sometimes it will be the other way around: we used something in class and you learn more details about it at Datacamp. This is perfectly fine. However, it is important that you keep up-to-date with Datacamp otherwise you are going to get lost. Also programming is something that you need to practice. You can do the same the Datacamp two or three times. Also the notebooks that we do in class, you can play around with these. Plot different functions, solve equations for different parameter values etc. Just looking at the answers that we give you in class will not help you to learn programming. 
 
-Use git to clone.
-
-Additional material:
-
-* cheat sheets
-
-* Data camp
-
-* R for data science book
-
-etc
-
-
-## How to fish
-
-Stack overflow, google on error message, strip away fluff
-
-
-## Aim of the course
+Finally, we urge you to use google (or other search engines like DuckDuckGo) and stackoverflow with your assignments. Some students find this weird at the beginning: should we not teach you everything that you need to know? The answer is "no", for a number of reasons. First, even professional programmers use google and stackoverflow all the time. Second, python and R are open source and lots of people work with it. If you encounter a problem, chances are that someone else had the same problem and knows the solution to it. There is not need to “invent the wheel”. Use the resources available to you. If you copy a lot of code, you should add a reference. Finally, because python and R are open source, they develop rapidly. The things that we teach you now, will be obsolete in a couple of years time. Hence, you need to be able to find your way around also in 10 years time. It will help you a lot to specifically google your error messages.
+To start practicing this, use google now.
 
 
 ## Questions
@@ -40,4 +34,8 @@ The R-part of the course Programming for Economists in 2020-2021 is taught by:
 - Misja Mikkers
 - Gertjan Verhoeven
 
+
+## Exam
+
+This year the exam will be a multiple choice exam. You can use R-studio on your own computer and you are allowed to google. 
 
