@@ -1,12 +1,12 @@
 # Schedule
 
-# Lecture 1: Visualisation
+## Lecture 1: Visualisation
 
-## Week 8
+### Week 8
 
 February 22, 2021 - February 26, 2021 
 
-## Preparation
+### Preparation
 
 Before class you should have
 
@@ -14,75 +14,75 @@ Before class you should have
 - cloned the repo XXX on your computer
 - finished datacamp course "Introduction to the Tidyverse"
 
-## In class
+### In class
 
 In class we will go through the notebook of lecture 1
 
 
 
-# Lecture 2: Data wrangling 1
+## Lecture 2: Data wrangling 1
 
-## Week 9
+### Week 9
 
 March 1, 2021 - March 5, 2021
 
-## Preparation
+### Preparation
 
 Before class you should have
 
 - finished datacamp course "Introduction to R"
 
-## In class
+### In class
 
 In class we will go through the notebook of lecture 2
 
 
 # Lecture 3: Data wrangling 2
 
-## Week 10
+### Week 10
 
 March 8, 2021 - March 12, 2021
 
 
-## Preparation
+### Preparation
 
 - downloaded some data
 - made your own notebook with some data wrangling and a plot
 
 The aim of this preparation is to practice  with the skills required until now. This should be a good preparation for the exam with respect to the basis programming skills. 
 
-## In class 
+### In class 
 
 In class we will have some time to answer your questions with respect to your prepared notebook.
 
 Furthermore, we will go through the notebook of lecture 3.
 
 
-# Lecture 4: Functions and knitr
+## Lecture 4: Functions and knitr
 
 
-## Week 11
+### Week 11
 
 March 15, 2021 - March 19 2021
 
-## Preparation
+### Preparation
 
 
-## In class
+### In class
 
 
 
-# Lecture 5: Generating data and some statistics
+## Lecture 5: Generating data and some statistics
 
 
-## Week 12
+### Week 12
 
 March 22, 2021 - March 26, 2021
 
-## Preparation
+### Preparation
 
 
-## In class
+### In class
 
 
 
