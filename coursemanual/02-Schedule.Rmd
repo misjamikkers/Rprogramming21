@@ -37,7 +37,7 @@ Before class you should have
 In class we will go through the notebook of lecture 2
 
 
-# Lecture 3: Data wrangling 2
+## Lecture 3: Data wrangling 2
 
 ### Week 10
 
