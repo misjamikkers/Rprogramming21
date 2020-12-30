@@ -1,5 +1,21 @@
 # Schedule
 
+# Lecture 1
 
+## Week 8
+
+February 22, 2021 - February 26, 2021 
+
+## Preparation
+
+Before class you should have
+
+- installed the software
+- cloned the repo XXX on your computer
+- finished datacamp course "Introduction to the Tidyverse"
+
+## In class
+
+In class we will go through 
 
 

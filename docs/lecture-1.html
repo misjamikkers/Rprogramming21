@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 4 Installing the software | Course manual R programming 2020/2021</title>
+  <title>Chapter 3 Lecture 1 | Course manual R programming 2020/2021</title>
   <meta name="description" content="This is the course manual for the course R programming 2020/2021" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 4 Installing the software | Course manual R programming 2020/2021" />
+  <meta property="og:title" content="Chapter 3 Lecture 1 | Course manual R programming 2020/2021" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 4 Installing the software | Course manual R programming 2020/2021" />
+  <meta name="twitter:title" content="Chapter 3 Lecture 1 | Course manual R programming 2020/2021" />
   
   <meta name="twitter:description" content="This is the course manual for the course R programming 2020/2021" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="lecture-1.html"/>
-<link rel="next" href="visualizing-data.html"/>
+<link rel="prev" href="schedule.html"/>
+<link rel="next" href="installing-the-software.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -118,66 +118,24 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="installing-the-software" class="section level1">
-<h1><span class="header-section-number">Chapter 4</span> Installing the software</h1>
-<p>Rstudio provides a good <a href="https://education.rstudio.com/learn/beginner/">starting point for beginners</a> to learn R and Rstudio.</p>
-<p>In particular, the first chapter of moderndive and the first chapter of R for data science.</p>
-<div id="what-do-you-need" class="section level2">
-<h2><span class="header-section-number">4.1</span> What do you need?</h2>
-<p>We assume you have a laptop (Windows or Mac). To be able to follow the course and use the software for other courses you need the following free software:</p>
+<div id="lecture-1" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Lecture 1</h1>
+<div id="week-8" class="section level2">
+<h2><span class="header-section-number">3.1</span> Week 8</h2>
+<p>February 22, 2021 - February 26, 2021</p>
+</div>
+<div id="preparation" class="section level2">
+<h2><span class="header-section-number">3.2</span> Preparation</h2>
+<p>Before class you should have</p>
 <ul>
-<li>R</li>
-<li>Rstudio</li>
-<li>TinyTex</li>
-<li>R packages</li>
+<li>installed the software</li>
+<li>cloned the repo XXX on your computer</li>
+<li>finished datacamp course “Introduction to the Tidyverse”</li>
 </ul>
-<p>R is free software for importing data, manipulating data and statistical analysis. Once installed, you don’t need to open the software.</p>
-<p>We will use R in another program: Rstudio. Rstudio is a so called Integrated Development Environment (IDE), which allows you to write and run code.</p>
-<p>Rstudio is able to transform your code to different nice outputs:</p>
-<ul>
-<li>notebook</li>
-<li>presentation</li>
-<li>article</li>
-<li>thesis</li>
-<li>much more (even this website and this course manual is build in Rstudio!)</li>
-</ul>
-<p>Rstudio needs TinyTex to transform your code to pdf (which is our preferred format, however other formats are also possible).</p>
-<p>If you need to do things more often, it is useful to write a function to do these things. Other R users also use functions and store them in packages. Some of these packages are published online and can be used by all users. We will depend in our course on some of these packages.</p>
-<p>The first package we will install is the package TinyTex, which is basically a function to install the TinyTex software on your computer, taking into account your operating system.</p>
-<p>We also show you how to install other packages.</p>
-<p>In this chapter we will instruct how to install the software.</p>
 </div>
-<div id="installing-r" class="section level2">
-<h2><span class="header-section-number">4.2</span> Installing R</h2>
-<p>In this paragraph we will take you through the steps to install R.</p>
-<ol style="list-style-type: decimal">
-<li>Go to this <a href="https://mirror.lyrahosting.com/CRAN/">website</a></li>
-<li>Choose download R for your operating system. You can choose from Windows, Mac OS X for apple computers and Linux. If you don’t know which operating system you have and you don’t have an apple computer, you may guess you have a Windows computer.</li>
-<li>After downloading, open the downloaded file and follow the steps to install the program. Choose the default options.</li>
-</ol>
-</div>
-<div id="r-studio" class="section level2">
-<h2><span class="header-section-number">4.3</span> R studio</h2>
-<p>You can download and install R studio from <a href="http://www.rstudio.com/download" class="uri">http://www.rstudio.com/download</a>. Choose the option: “Open Source License Free”. The website will then recommend a version for your operating system.</p>
-<p>You will see 3 “panes”:</p>
-<ol style="list-style-type: decimal">
-<li>Console (left part of the screen)</li>
-<li>Environment/history etc (top right of your screen)</li>
-<li>Files/Plots/Packages (bottom right of your sreen)</li>
-</ol>
-<p>&lt;<PRINT SCREEN INVOEGEN>&gt;</p>
-<p>You can test the installation by typing</p>
-<p>1 + 1</p>
-<p>followed by an enter to test the installation.</p>
-</div>
-<div id="installation-of-packages" class="section level2">
-<h2><span class="header-section-number">4.4</span> Installation of packages</h2>
-<p>In the pane at the bottom right there is a tab called “Packages”.
-After clicking this tab a new tab “Install” appears</p>
-<p>&lt;<INVOEGEN SCHERMPLAATJE>&gt;</p>
-<p>After clicking the “Install” button, you can type tinytex in the pop-up.</p>
-<p>&lt;<INVOEGEN SCHERMPLAATJE>&gt;</p>
-<p>Please install the package tidyverse.</p>
+<div id="in-class" class="section level2">
+<h2><span class="header-section-number">3.3</span> In class</h2>
+<p>In class we will go through</p>
 
 </div>
 </div>
@@ -186,8 +144,8 @@ After clicking this tab a new tab “Install” appears</p>
           </div>
         </div>
       </div>
-<a href="lecture-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="visualizing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="schedule.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="installing-the-software.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -218,7 +176,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-software.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-Schedule.Rmd",
 "text": "Edit"
 },
 "history": {
