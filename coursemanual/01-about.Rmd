@@ -31,8 +31,11 @@ Only when you need to include privately sensitive information (“my cat has pas
 
 The R-part of the course Programming for Economists in 2020-2021 is taught by:
 
+- José Carreño Bustos 
 - Misja Mikkers
+- Daan Schrage
 - Gertjan Verhoeven
+- Jierui Yang
 
 
 ## Exam

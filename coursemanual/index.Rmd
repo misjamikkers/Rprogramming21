@@ -15,3 +15,6 @@ description: "This is the course manual for the course R programming 2020/2021"
 # Welcome {-}
 
 This is the website for the course Programming in R at Tilburg University for the course year 2020/2021
+
+[comment]: <> (run this in the console bookdown::render_book("index.Rmd", "bookdown::pdf_book"))
+[comment]: <> (run this in the console bookdown::render_book("index.Rmd"))
