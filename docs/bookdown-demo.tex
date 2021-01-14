@@ -355,6 +355,38 @@ You can test the installation by typing
 
 followed by an enter to test the installation.
 
+\hypertarget{installation-of-tinytex}{%
+\section{Installation of TinyTex}\label{installation-of-tinytex}}
+
+LaTeX is a commonly used open source typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the used often in preparing scientific documents.
+Latex and R-studio can work together. So you can transform your Rmd documents to pdf via the ``knit'' button.
+TinyTex is a Latex distribution that works on MAC, Windows and Linux operating systems.
+
+We have to install TinyTex in 2 steps:
+
+Run this command in your console (button at the left bottom of your screen)
+
+\begin{itemize}
+\tightlist
+\item
+  Step 1
+\end{itemize}
+
+install.packages(`tinytex')
+tinytex::install\_tinytex()
+
+\begin{itemize}
+\tightlist
+\item
+  Step 2
+\end{itemize}
+
+writeLines(c(
+`\textbackslash documentclass\{article\}',
+`\textbackslash begin\{document\}', `Hello world!', `\textbackslash end\{document\}'
+), `test.tex')
+tinytex::pdflatex(`test.tex')
+
 \hypertarget{installation-of-packages}{%
 \section{Installation of packages}\label{installation-of-packages}}
 
@@ -363,7 +395,7 @@ After clicking this tab a new tab ``Install'' appears
 
 \textless{}\textgreater{}
 
-After clicking the ``Install'' button, you can type tinytex in the pop-up.
+After clicking the ``Install'' button, you can type tidyverse in the pop-up.
 
 \textless{}\textgreater{}
 

@@ -109,7 +109,8 @@
 <li class="chapter" data-level="3.1" data-path="installing-the-software.html"><a href="installing-the-software.html#what-do-you-need"><i class="fa fa-check"></i><b>3.1</b> What do you need?</a></li>
 <li class="chapter" data-level="3.2" data-path="installing-the-software.html"><a href="installing-the-software.html#installing-r"><i class="fa fa-check"></i><b>3.2</b> Installing R</a></li>
 <li class="chapter" data-level="3.3" data-path="installing-the-software.html"><a href="installing-the-software.html#r-studio"><i class="fa fa-check"></i><b>3.3</b> R studio</a></li>
-<li class="chapter" data-level="3.4" data-path="installing-the-software.html"><a href="installing-the-software.html#installation-of-packages"><i class="fa fa-check"></i><b>3.4</b> Installation of packages</a></li>
+<li class="chapter" data-level="3.4" data-path="installing-the-software.html"><a href="installing-the-software.html#installation-of-tinytex"><i class="fa fa-check"></i><b>3.4</b> Installation of TinyTex</a></li>
+<li class="chapter" data-level="3.5" data-path="installing-the-software.html"><a href="installing-the-software.html#installation-of-packages"><i class="fa fa-check"></i><b>3.5</b> Installation of packages</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="practice-exam.html"><a href="practice-exam.html"><i class="fa fa-check"></i><b>4</b> Practice exam</a></li>
 <li class="divider"></li>
@@ -184,12 +185,33 @@
 <p>1 + 1</p>
 <p>followed by an enter to test the installation.</p>
 </div>
+<div id="installation-of-tinytex" class="section level2">
+<h2><span class="header-section-number">3.4</span> Installation of TinyTex</h2>
+<p>LaTeX is a commonly used open source typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is the used often in preparing scientific documents.
+Latex and R-studio can work together. So you can transform your Rmd documents to pdf via the “knit” button.
+TinyTex is a Latex distribution that works on MAC, Windows and Linux operating systems.</p>
+<p>We have to install TinyTex in 2 steps:</p>
+<p>Run this command in your console (button at the left bottom of your screen)</p>
+<ul>
+<li>Step 1</li>
+</ul>
+<p>install.packages(‘tinytex’)
+tinytex::install_tinytex()</p>
+<ul>
+<li>Step 2</li>
+</ul>
+<p>writeLines(c(
+‘\documentclass{article}’,
+‘\begin{document}’, ‘Hello world!’, ‘\end{document}’
+), ‘test.tex’)
+tinytex::pdflatex(‘test.tex’)</p>
+</div>
 <div id="installation-of-packages" class="section level2">
-<h2><span class="header-section-number">3.4</span> Installation of packages</h2>
+<h2><span class="header-section-number">3.5</span> Installation of packages</h2>
 <p>In the pane at the bottom right there is a tab called “Packages”.
 After clicking this tab a new tab “Install” appears</p>
 <p>&lt;<INVOEGEN SCHERMPLAATJE>&gt;</p>
-<p>After clicking the “Install” button, you can type tinytex in the pop-up.</p>
+<p>After clicking the “Install” button, you can type tidyverse in the pop-up.</p>
 <p>&lt;<INVOEGEN SCHERMPLAATJE>&gt;</p>
 <p>Please install the package tidyverse.</p>
 
