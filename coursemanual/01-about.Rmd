@@ -40,5 +40,10 @@ The R-part of the course Programming for Economists in 2020-2021 is taught by:
 
 ## Exam
 
-This year the exam will be a multiple choice exam. You can use R-studio on your own computer and you are allowed to google. 
+This year the midterm exam will be a an exam with multiple choice questions and "closed" questions (e.g. you have to give a number). You can use R-studio on your own computer and you are allowed to google. You are not allowed to communicatie with other people. 
+
+The midterm exam will last for one hour and will consist of 10 questions about github, markdown and R. Once you answer a question and go on to the next question, you cannot go back to an earlier question.
+
+We will not provide a test-exam. The notebooks used in class show the kind of questions we will ask you.
+
 
