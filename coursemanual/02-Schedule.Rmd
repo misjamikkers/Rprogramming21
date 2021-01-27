@@ -58,7 +58,7 @@ In class we will have some time to answer your questions with respect to your pr
 Furthermore, we will go through the notebook of lecture 3.
 
 
-## Lecture 4: Functions and knitr
+## Lecture 4: Functions and R Markdown
 
 
 ### Week 11
@@ -67,10 +67,16 @@ March 15, 2021 - March 19 2021
 
 ### Preparation
 
+For a super compact introduction to R Markdown, watch [This 1-minute video](https://vimeo.com/178485416).
 
+Got that? No worries, we go over it step by step in the R notebooks.
+
+“A reproducible workflow” by Ignasi Bartomeus and Francisco Rodríguez-Sánchez (https://youtu.be/s3JldKoA0zw) is a 2-min video that looks artistic but also shows very common and practical problems in data analysis, and how R markdown solves these.
 
 ### In class
 
+In class we will go through the notebooks of lecture 4.
+First is the functions notebook, then the R Markdown notebook (that includes a Markdown refresher notebook as exercise). 
 
 
 ## Lecture 5: Generating data and some statistics
@@ -82,9 +88,10 @@ March 22, 2021 - March 26, 2021
 
 ### Preparation
 
+Nothing.
 
 ### In class
 
-
+In class we will go through the notebook of lecture 5.
 
 
