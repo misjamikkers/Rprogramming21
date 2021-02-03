@@ -72,24 +72,36 @@ TinyTex is a Latex distribution that works on MAC, Windows and Linux operating s
 
 We have to install TinyTex in 2 steps:
 
-Run this command in your console (button at the left bottom of your screen)
+Run these two commands in your console (button at the left bottom of your screen)
+
+(One at a time)
 
 - Step 1
 
+```
 install.packages('tinytex')
 
-
-
 tinytex::install_tinytex()
+```
 
-- Step 2
+- Step 2 Check if it works
 
+Then run these two commands in your console (button at the left bottom of your screen)
+
+(One at a time)
+
+```
  writeLines(c(
    '\\documentclass{article}',
    '\\begin{document}', 'Hello world!', '\\end{document}'
  ), 'test.tex')
-tinytex::pdflatex('test.tex')
 
+tinytex::pdflatex('test.tex')
+```
+
+It should display the following output:
+
+![](tinytex.png)
 
 ## Installation of packages
 
@@ -105,7 +117,15 @@ After clicking the "Install" button, you can type tidyverse in the pop-up.
 
 Please install the package tidyverse.
 
+Test your tidyverse install by typing in Rstudio:
 
+```
+library(tidyverse)
+```
+
+It should display the following output:
+
+![](tidyverse.png)
 
 
 

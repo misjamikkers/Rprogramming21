@@ -24,7 +24,7 @@
 <meta name="author" content="Misja Mikkers and Gertjan Verhoeven" />
 
 
-<meta name="date" content="2021-01-31" />
+<meta name="date" content="2021-02-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,7 +50,6 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -190,20 +189,27 @@
 Latex and R-studio can work together. So you can transform your Rmd documents to pdf via the “knit” button.
 TinyTex is a Latex distribution that works on MAC, Windows and Linux operating systems.</p>
 <p>We have to install TinyTex in 2 steps:</p>
-<p>Run this command in your console (button at the left bottom of your screen)</p>
+<p>Run these two commands in your console (button at the left bottom of your screen)</p>
+<p>(One at a time)</p>
 <ul>
 <li>Step 1</li>
 </ul>
-<p>install.packages(‘tinytex’)
-tinytex::install_tinytex()</p>
+<pre><code>install.packages(&#39;tinytex&#39;)
+
+tinytex::install_tinytex()</code></pre>
 <ul>
-<li>Step 2</li>
+<li>Step 2 Check if it works</li>
 </ul>
-<p>writeLines(c(
-‘\documentclass{article}’,
-‘\begin{document}’, ‘Hello world!’, ‘\end{document}’
-), ‘test.tex’)
-tinytex::pdflatex(‘test.tex’)</p>
+<p>Then run these two commands in your console (button at the left bottom of your screen)</p>
+<p>(One at a time)</p>
+<pre><code> writeLines(c(
+   &#39;\\documentclass{article}&#39;,
+   &#39;\\begin{document}&#39;, &#39;Hello world!&#39;, &#39;\\end{document}&#39;
+ ), &#39;test.tex&#39;)
+
+tinytex::pdflatex(&#39;test.tex&#39;)</code></pre>
+<p>It should display the following output:</p>
+<p><img src="tinytex.png" /></p>
 </div>
 <div id="installation-of-packages" class="section level2">
 <h2><span class="header-section-number">3.5</span> Installation of packages</h2>
@@ -212,6 +218,10 @@ After clicking this tab a new tab “Install” appears</p>
 <p>After clicking the “Install” button, you can type tidyverse in the pop-up.</p>
 <p><img src="install.PNG" /></p>
 <p>Please install the package tidyverse.</p>
+<p>Test your tidyverse install by typing in Rstudio:</p>
+<pre><code>library(tidyverse)</code></pre>
+<p>It should display the following output:</p>
+<p><img src="tidyverse.png" /></p>
 
 </div>
 </div>
