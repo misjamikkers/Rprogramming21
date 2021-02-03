@@ -77,6 +77,9 @@ Run this command in your console (button at the left bottom of your screen)
 - Step 1
 
 install.packages('tinytex')
+
+
+
 tinytex::install_tinytex()
 
 - Step 2
