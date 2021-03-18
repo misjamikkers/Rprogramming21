@@ -11,7 +11,7 @@ February 22, 2021 - February 26, 2021
 Before class you should have
 
 - installed the software
-- cloned the repo from\url{https://github.com/misjamikkers/Rprogramming21_student} on your computer
+- cloned the repo from \url{https://github.com/misjamikkers/Rprogramming21_student} on your computer # URL IS WEGGEVALLEN
 - finished datacamp course "Introduction to the Tidyverse"
 
 ### In class
